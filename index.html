@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Pet lover form</h1>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="example@email.com"><br>
+
+        <p>Do you have a pet?</p>
+        <input type="radio" id="like" name="like" value="Yes">
+        <label for="like">Yes</label><br>
+        <input type="radio" id="like" name="like" value="No">
+        <label for="like">No</label><br>
+
+        <p>What pet/s do you have?</p>
+        <input type="checkbox" id="pet1" name="pet1" value="Turtle">
+        <label for="pet1">Turtle</label><br>
+        <input type="checkbox" id="pet2" name="pet2" value="Dog">
+        <label for="pet2">Dog</label><br>
+        <input type="checkbox" id="pet3" name="pet3" value="Cat">
+        <label for="pet3">Cat</label><br>
+        <input type="checkbox" id="pet4" name="pet4" value="Other">
+        <label for="pet4">Other</label><br>
+
+        <label for="dream">What was your dream pet when you used to be a kid?</label><br>
+        <textarea name="dream" rows="5" cols="30">
+            </textarea><br>
+
+        <p>How much you love animals?</p>
+        <label for="range">Range (between 0 and 100):</label><br>
+        <input type="range" id="range" name="range" min="0" max="100"><br>
+
+        <input class="btn" type="submit" value="Submit">
+        <input class="btn" type="reset">
+    </form>
+</body>
+
+</html>

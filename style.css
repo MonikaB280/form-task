@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: rgb(187, 237, 220);
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 1.3em;
+}
+
+label, input,p  {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+label, p {
+    font-weight: bold;
+}
+form {
+    text-align: center;
+}
+textarea, input {
+    background-color: azure;
+}
+.btn {
+padding: 1em;
+border-radius: 1em;
+}
